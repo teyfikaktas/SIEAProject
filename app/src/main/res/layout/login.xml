@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:text="E-Posta"
+        android:textColor="#292526"
+
+        android:translationY="100dp"
+        tools:text="E-Posta" />
+
+    <TextView
+        android:id="@+id/textView7"
+
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:text="Şifre"
+        android:textColor="#292526"
+        android:translationY="120dp"
+        tools:text="Şifre" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_number"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_custom"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:translationX="100dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_password"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/et_custom"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:translationX="100dp" />
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="-550dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/lgn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Üye Ol"
+
+
+        android:textColor="@android:color/white"
+        android:translationY="-100dp"
+        app:backgroundTint="@color/common_google_signin_btn_text_light_default" />
+
+</LinearLayout>

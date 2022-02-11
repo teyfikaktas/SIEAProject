@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "279239801308",
+    "project_id": "kriptarium-box",
+    "storage_bucket": "kriptarium-box.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279239801308:android:0b11a843d54bf6e7a6f719",
+        "android_client_info": {
+          "package_name": "com.example.crpito"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279239801308-47m7qtb5o2erps9ptndsdn11slalkoe5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crpito",
+            "certificate_hash": "73bc6ecb766e1461f3ba3d4840426e677c812cb4"
+          }
+        },
+        {
+          "client_id": "279239801308-7r9b5modopk2tjfq1sf867ph1nkt4pv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeHKAyLySP2elsBY1y5CQiur40hRLp49g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279239801308-7r9b5modopk2tjfq1sf867ph1nkt4pv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
